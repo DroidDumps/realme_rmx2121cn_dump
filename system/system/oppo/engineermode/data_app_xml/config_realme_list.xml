@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<apk_config>
+  <!--该xml适用于Realme应用内置，内销内置配置到config_exp.xml里面，package name为包名，path为应用内置到手机/data/app下面的路径名，project、country、operator分别表示该应用适用于哪些项目、国家、运营商，示例如下-->
+  <!--package name="com.example.test" path="ExampleTest" project="17001,17002" country="-TW,-IN" operator="common" 表明要内置到/data/app/ExampleTest的应用，只在17001和17002两个项目，除台湾和印度区域内置，负号表示非,common表示通用-->
+  <!--注：如果应用已经不再内置了请及时去掉或注释掉名单，否则会导致产线911过不了-->
+  <!-- 便签 -->
+  <package name="com.coloros.note" path="OppoNote2" project="common" country="common" operator="common" />
+  <!-- 游戏中心 -->
+  <package name="com.nearme.gamecenter" path="Gamecenter" project="common" country="common" operator="common" />
+  <!-- 指南针 -->
+  <package name="com.coloros.compass2" path="OppoCompass2" project="common" country="common" operator="common" />
+  <!-- 天气 -->
+  <package name="com.coloros.weather2" path="OppoWeather2" project="common" country="common" operator="common" />
+  <!-- 计算器 -->
+  <package name="com.coloros.calculator" path="Calculator2" project="common" country="common" operator="common" />
+  <!-- 录屏 -->
+  <package name="com.coloros.screenrecorder" path="ColorScreenRecorder" project="common" country="common" operator="common" />
+  <!-- 一键锁屏 -->
+  <package name="com.coloros.onekeylockscreen" path="OneKeyLockScreen" project="common" country="common" operator="common" />
+  <!-- 国际上网 -->
+  <package name="com.redteamobile.roaming" path="SoftsimRedteaRoaming" project="common" country="common" operator="common" />
+  <!-- OppoPods -->
+   <package name="com.coloros.oppopods" path="OppoPods" project="common" country="common" operator="common" />
+  <!-- GameSpaceUI -->
+  <package name="com.coloros.gamespaceui" path="GameSpaceUI" project="common" country="common" operator="common" />
+  <!-- 系统可卸载应用找回 -->
+  <package name="com.coloros.apprecover" path="MDSService" project="common" country="common" operator="common" />
+  <!-- 我的收藏 -->
+  <package name="com.coloros.favorite" path="ColorFavorite" project="common" country="common" operator="common" />
+  <!-- OPPO小游戏 -->
+  <package name="com.nearme.play" path="QuickGame" project="common" country="common" operator="common" />
+  <!-- 智能家居 -->
+  <package name="com.heytap.smarthome" path="SmartHome" project="common" country="common" operator="common" />
+  <!-- 应用使用时间 -->
+  <package name="com.coloros.digitalwellbeing" path="DigitalWellBeing" project="common" country="common" operator="common" />
+  <!-- 安全事件 -->
+  <package name="com.coloros.securityguard" path="SecurityGuard" project="common" country="common" operator="common" />
+  <!-- 远程守护 -->
+  <package name="com.coloros.familyguard" path="FamilyGuard" project="common" country="common" operator="common" />
+  <!-- 短视频 -->
+  <package name="com.heytap.yoli" path="Yoli" project="common" country="common" operator="common" />
+  <!-- 虚拟个人助理 -->
+  <package name="com.coloros.personalassistant" path="PersonalAssistant" project="common" country="common" operator="common" />
+  <!-- 欢太商城 -->
+  <package name="com.oppo.store" path="OPPOStore" project="common" country="common" operator="common" />
+  <!-- 录音 -->
+  <package name="com.coloros.soundrecorder" path="NewSoundRecorder" project="common" country="common" operator="common" />
+  <!-- Breeno指令 -->
+  <package name="com.coloros.shortcuts" path="Shortcuts" project="common" country="common" operator="common" />
+  <!-- 钱包 -->
+  <package name="com.finshell.wallet" path="FinShellWallet" project="common" country="common" operator="common" />
+  <!-- 银联控件 -->
+  <package name="com.unionpay.tsmservice" path="Unionpay" project="common" country="common" operator="common" />
+  <!-- 邮件 -->
+  <package name="com.android.email" path="Email" project="common" country="common" operator="common" lightOS="false"/>
+   <!-- 语音翻译 -->
+  <package name="com.coloros.translate" path="OppoTranslation" project="common" country="common" operator="common" />
+  <!-- realmeLink -->
+  <package name="com.realme.linkcn" path="realmeLink" project="common" country="common" operator="common" />
+  <!-- 即录（视频编辑器） -->
+  <package name="com.coloros.videoeditor" path="OppoVideoEditor" project="common" country="common" operator="common" lightOS="false" />
+</apk_config>

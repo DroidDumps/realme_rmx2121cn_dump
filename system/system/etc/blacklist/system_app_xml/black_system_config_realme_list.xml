@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<apk_config>
+  <!--该xml适用于realme OS system下的应用内置，为黑名单，package name为包名，project、country、operator分别表示该应用适用于哪些项目、国家、运营商，示例如下-->
+  <!--package name="com.example.test" project="17001,17002" country="common" operator="common" 表明要system下包名为com.example.test的应用，不在17001和17002两个项目内置-->
+  <!--package name="com.example.test" project="common" country="-IN,-TW" operator="common" 表明要system下包名为com.example.test的应用，只在台湾和印度区域内置，负号表示非,common表示通用-->
+  <!--package name="com.example.test" project="17001,17002" country="-IN,-TW" operator="common" 表明要system下包名为com.example.test的应用，不在17001和17002两个项目内置，也不在除台湾和印度之外的区域内置-->
+  <!--注：如果应用已经不再内置了请及时去掉或注释掉名单，否则会导致产线911过不了-->
+  <!-- Nfc不在20610/20611/20613内置 -->
+  <package name="com.android.nfc" project="20610,20611,20613,20686" country="common" operator="common" />
+</apk_config>
