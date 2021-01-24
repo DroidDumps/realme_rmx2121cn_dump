@@ -1,0 +1,7 @@
+
+<permissions>
+    <feature name="oppo.network.sar.earpiece.detect.support" />
+    <!--YangXiaolin@NETWORK.REG 2020/08/21,add for support & show nr mode  -->
+    <feature name="oplus.phone.support_5g_nrmode" />
+    <feature name="oplus.phone.show_5g_nr_mode" />
+</permissions>
